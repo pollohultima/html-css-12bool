@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container_bot {
+    display: flex;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.nested {
+    width: 50%;
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+    height: 100%;
+}
+
+.col-1 {
+    width: calc((100% / 12) * 1)
+}
+
+.col-2 {
+    width: calc((100% / 12) * 2)
+}
+
+.col-3 {
+    width: calc((100% / 12) * 3)
+}
+
+.col-4 {
+    width: calc((100% / 12) * 4)
+}
+
+.col-5 {
+    width: calc((100% / 12) * 5)
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: calc((100% / 12) * 7)
+}
+
+.col-8 {
+    width: calc((100% / 12) * 8)
+}
+
+.col-9 {
+    width: calc((100% / 12) * 9)
+}
+
+.col-10 {
+    width: calc((100% / 12) * 10)
+}
+
+.col-11 {
+    width: calc((100% / 12) * 11)
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.n-col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+    height: 100%;
+}
+
+.n-col-1 {
+    width: calc((100% / 12) * 1 - .6rem)
+}
+
+.n-col-2 {
+    width: calc((100% / 12) * 2 - .6rem)
+}
+
+.n-col-3 {
+    width: calc((100% / 12) * 3 - .6rem)
+}
+
+.n-col-4 {
+    width: calc((100% / 12) * 4 - .6rem)
+}
+
+.n-col-5 {
+    width: calc((100% / 12) * 5 - .6rem)
+}
+
+.n-col-6 {
+    width: calc(50% - .6rem);
+}
+
+.n-col-7 {
+    width: calc((100% / 12) * 7 - .6rem)
+}
+
+.n-col-8 {
+    width: calc((100% / 12) * 8 - .6rem)
+}
+
+.n-col-9 {
+    width: calc((100% / 12) * 9 - .6rem)
+}
+
+.n-col-10 {
+    width: calc((100% / 12) * 1 - .6rem0)
+}
+
+.n-col-11 {
+    width: calc((100% / 12) * 1 - .6rem1)
+}
+
+.n-col-12 {
+    width: calc(100% - .6rem);
+}
+
+/* Utily */
+
+.justify_start {
+    justify-content: flex-start;
+}
+
+.justify_center {
+    justify-content: center;
+}
+
+.justify_end {
+    justify-content: flex-end;
+}
+
+.justify_between {
+    justify-content: space-between;
+}
+
+.justify_around {
+    justify-content: space-around;
+}
+
+.justify_evenly {
+    justify-content: space-evenly;
+}
+
+.text_left {
+    text-align: start;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_right {
+    text-align: end;
+}
+
+.align_start {
+    align-items: flex-start;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.align_end {
+    align-items: flex-end;
+}
+
+.p_1 {
+    padding: 1rem;
+}
+
+.p_2 {
+    padding: 1.5rem;
+}
+
+.m_1 {
+    margin: 1rem;
+}
+
+.m_2 {
+    margin: 1.5rem;
+}
